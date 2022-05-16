@@ -16,6 +16,7 @@
 ### Public Methods
 #### `static long double substituteIntoFunc(const QString &function, const QString &variableName, const long double &variableValue)`
 Substitute into some mathematical function provided as string, you should provide the mathematical variable name and the value of that variable. It returns a long double after evaluating that mathematical expression.
+
 WARNING: Do NOT insure that `QString &function` parameter does NOT include any spaces. 
 #### `static QStringList splitMathematicalExpression(QString mathematicalExpression)`
 Convert a string mathematical expression into a list.
